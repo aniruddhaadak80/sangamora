@@ -1,9 +1,3 @@
-# vercel.json — drives the Vercel prebuilt pipeline (see .github/workflows/deploy-vercel.yml).
-#
-# Region choice is deliberate: bom1 (Mumbai) is the closest Vercel region to
-# Prayagraj/Haridwar/Nashik/Ujjain — the Kumbh Mela rotation — for both latency
-# and symbolism. The app is fully client-side + SSR-light, so one region is
-# enough; no CDN fan-out needed for a sandbox.
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
