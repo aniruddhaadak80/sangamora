@@ -17,7 +17,7 @@ jobs:
     name: github release (${{ github.ref_name }})
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
         with:
           # full history so the previous tag + commit range is resolvable
           fetch-depth: 0
