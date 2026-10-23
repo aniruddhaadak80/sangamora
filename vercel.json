@@ -2,10 +2,10 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "services": {
     "web": {
-      "root": ".",
+      "root": "apps/web",
       "framework": "nextjs",
-      "installCommand": "bun install",
-      "buildCommand": "bun run build"
+      "installCommand": "cd ../.. && bun install",
+      "buildCommand": "cd ../.. && bun run build"
     }
   },
   "regions": ["bom1"],
