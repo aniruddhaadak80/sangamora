@@ -1,0 +1,8 @@
+{
+  "extends": "@sangamora/config/tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["dom", "ES2022"],
+    "jsx": "react-jsx"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "tests/**/*.ts", "*.config.ts"]
+}

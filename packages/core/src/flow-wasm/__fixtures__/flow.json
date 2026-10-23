@@ -1,0 +1,10 @@
+[
+  { "edgeId": "station-yard-idle", "v": 0, "c": 1104, "freeTimeMin": 12 },
+  { "edgeId": "jhusi-pontoon-packed", "v": 552, "c": 552, "freeTimeMin": 8 },
+  { "edgeId": "sangam-marg-half", "v": 500, "c": 1000, "freeTimeMin": 10 },
+  { "edgeId": "bath-gau-jam", "v": 1600, "c": 1000, "freeTimeMin": 14 },
+  { "edgeId": "triveni-causeway-tiny-cap", "v": 7.2, "c": 1, "freeTimeMin": 2 },
+  { "edgeId": "prayagraj-jn-megacrowd", "v": 5200000, "c": 1000000, "freeTimeMin": 45 },
+  { "edgeId": "samudra-manthan-tide", "v": 5200000, "c": 5200000, "freeTimeMin": 11 },
+  { "edgeId": "shanti-quarter-calm", "v": 69, "c": 460, "freeTimeMin": 5.5 }
+]

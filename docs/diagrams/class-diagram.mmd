@@ -1,0 +1,62 @@
+classDiagram
+  class CrowdSim {
+    +SectorGraph graph
+    +Rng rng
+    -Float64Array pops
+    -Float64Array edgeMults
+    +tick() TickResult
+    +directive(patch CrowdDirectivePatch) void
+    +populationOf(sectorId) number
+    +hopsToTarget(sectorId) number
+    +snapshot() Snapshot
+    +restore(snap Snapshot) void
+  }
+  class SectorGraph {
+    -Map~string,number~ index
+    -string[][] adjacencyList
+    -Map~string,Int32Array~ rows
+    +adjacency(id) readonly string[]
+    +nextHop(from, to) string
+    +shortestPathWarmup(destinations) void
+  }
+  class Rng {
+    -mulberry32 stream
+    -number counter
+    +next() float
+    +int(min, max) integer
+    +float(min, max) float
+    +pick(arr) T
+    +shuffle(arr) T[]
+    +weighted(pairs) T
+    +chance(p) boolean
+    +id(prefix) string
+  }
+  class MarshalBrain {
+    +FSM phase
+    +observe(tickResult) void
+    +rank() Alert[]
+    +decide(tickResult) CrowdDirectivePatch
+  }
+  class BazaarSim {
+    -Vendor[] vendors
+    +demandFor(sectorDensity) DemandSignal
+    +adjustPrices() void
+    +restock(leadMin) void
+  }
+  class RailScheduler {
+    -timetable Train[]
+    +arrivals(minute) Train[]
+    +releaseCohort(train) Cohort
+  }
+  class TimelinePlayer {
+    -Snapshot[] frames
+    +record(snapshot) void
+    +goto(tick) Snapshot
+    +stateHashAt(tick) string
+  }
+  CrowdSim *-- SectorGraph : world topology
+  CrowdSim *-- Rng : seeded jitter
+  CrowdSim ..> MarshalBrain : directives from
+  CrowdSim ..> RailScheduler : train cohorts inject
+  CrowdSim ..> BazaarSim : density reads
+  CrowdSim ..> TimelinePlayer : snapshot capture

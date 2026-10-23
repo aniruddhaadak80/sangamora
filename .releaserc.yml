@@ -1,0 +1,34 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# sangamora — semantic-release configuration.
+#
+# Versioning is driven by Conventional Commits (feat: → MINOR, fix: → PATCH,
+# feat!:/fix!: or BREAKING CHANGE footer → MAJOR; docs:/chore:/test:/ci: carry
+# no version bump).
+#
+# Run it manually:
+#   npx -y semantic-release
+#
+# The automated GitHub Release lane is separate by design:
+# .github/workflows/release.yml triggers on `v*` tags and uses plain git
+# history + softprops/action-gh-release. This file powers full semantic-release
+# runs (CHANGELOG.md generation + version bump commits) when adopted.
+#
+# Deliberately excluded: @semantic-release/npm — the root package.json is
+# private:"true" (a monorepo, not a published npm package).
+# ─────────────────────────────────────────────────────────────────────────────
+
+branches: ["main"]
+tagFormat: "v${version}"
+
+plugins:
+  # commit grammar → version bump
+  - "@semantic-release/commit-analyzer"
+
+  # conventional commits → release notes
+  - "@semantic-release/release-notes-generator"
+
+  # persists CHANGELOG.md
+  - "@semantic-release/changelog"
+
+  # publishes the GitHub release + tags for this run
+  - "@semantic-release/github"

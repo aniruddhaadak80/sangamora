@@ -1,0 +1,19 @@
+{
+  "provenance": "2019 base prices approximated from public reporting on the Prayagraj Kumbh bazaar economy; rounded for simulation balance",
+  "entries": [
+    { "id": "bz-chai", "name": "Kulhad chai", "category": "street-food", "basePriceInr": 20, "hero": true, "demandNote": "Steady all-day demand; spikes at dawn wave hours" },
+    { "id": "bz-kachori", "name": "Kachori-sabzi plate", "category": "street-food", "basePriceInr": 30, "hero": true, "demandNote": "Morning peak as shahi crowds exit the ghats hungry" },
+    { "id": "bz-marigold-mala", "name": "Marigold mala", "category": "puja", "basePriceInr": 25, "hero": true, "demandNote": "Surges on bathing days; stock-outs common by noon" },
+    { "id": "bz-boat-ride", "name": "Boat ride to the dip line", "category": "service", "basePriceInr": 100, "hero": true, "demandNote": "Capacity-bound at peak ghats; premium during snan windows" },
+    { "id": "bz-prasad-thali", "name": "Prasad thali", "category": "street-food", "basePriceInr": 80, "demandNote": "Lunch hurry with kalpvasi regulars; steady otherwise" },
+    { "id": "bz-kalava", "name": "Kalava and tilak service", "category": "puja", "basePriceInr": 10, "demandNote": "Micro-price with near-universal attach rate" },
+    { "id": "bz-cotton-dhoti", "name": "Cotton dhoti", "category": "clothing", "basePriceInr": 150, "demandNote": "Bought for a dip-fresh change; decent daily turnover" },
+    { "id": "bz-wool-shawl", "name": "Wool shawl", "category": "clothing", "basePriceInr": 350, "demandNote": "Winter mornings and night-long waits sell it out early" },
+    { "id": "bz-ghee-diya", "name": "Ghee diya set", "category": "puja", "basePriceInr": 35, "demandNote": "Usually bought in twos and floated at dusk" },
+    { "id": "bz-jaggery", "name": "Jaggery block", "category": "grocery", "basePriceInr": 45, "demandNote": "Bundled for prasad; prices creep on big wave days" },
+    { "id": "bz-sugarcane-juice", "name": "Sugarcane juice", "category": "street-food", "basePriceInr": 30, "demandNote": "Midday crush at crush-stall queues" },
+    { "id": "bz-rudraksha-mala", "name": "Rudraksha mala", "category": "keepsake", "basePriceInr": 120, "demandNote": "Heavily bargained; souvenir demand peaks on exit days" },
+    { "id": "bz-brass-kamandal", "name": "Brass kamandal", "category": "keepsake", "basePriceInr": 220, "demandNote": "High-ticket; only a few units move per stall per day" },
+    { "id": "bz-coconut", "name": "Offering coconut", "category": "puja", "basePriceInr": 40, "demandNote": "Pairs with boat rides; stock shrinks fast in heat" }
+  ]
+}

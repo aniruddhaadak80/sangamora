@@ -1,0 +1,38 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# sangamora — Fly.io one-file config.
+#
+#   fly launch --copy-config     # first time (will read this and skip questions)
+#   fly deploy                   # every time after
+#
+# Deployed in Bombay (`bom`) — nearest Fly region to the real Kumbh Mela.
+# The image is built by the root Dockerfile: Bun builds, Node runs
+# (see Dockerfile notes on why there is no `output: "standalone"` build yet).
+#
+# Machine size: `shared-cpu-1x` — the 5M-pilgrim world is simulated in the
+# browser against a deterministic seeded engine, so server CPU stays trivially
+# light even at the smallest shared instance.
+# ─────────────────────────────────────────────────────────────────────────────
+
+app = "sangamora"
+primary_region = "bom"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  # Scale to zero when idle — a sandbox should not cost money while you sleep.
+  min_machines_running = 0
+
+  [[http_service.checks]]
+    interval = "10s"
+    timeout = "2s"
+    grace_period = "10s"
+    method = "GET"
+    path = "/api/healthz"
+
+[[vm]]
+  size = "shared-cpu-1x"

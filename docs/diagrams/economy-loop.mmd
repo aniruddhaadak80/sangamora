@@ -1,0 +1,20 @@
+flowchart LR
+  waves["PILGRIM_WAVE arrival schedule<br/>Shahi days: 0.18 / 0.42 / 0.22 + 5 filler waves"]
+  density["sector local density<br/>chaitanya-mela-bazaar, ghats, camps"]
+  demand["demand signal per bazaar item"]
+  price["price adjust<br/>vendor dynamic price"]
+  revenue["revenue booked"]
+  stock["stock level"]
+  restock["restock lead time<br/>truck arrives N minutes later"]
+  stockout["stockout: sales suppressed<br/>visitors walk past empty carts"]
+  contract["one-way sampler:<br/>BazaarSim observes the swarm,<br/>never redirects it"]
+
+  waves --> density --> demand
+  demand -- "willingness to pay" --> price
+  price --> revenue
+  revenue -- "profit funds new orders" --> restock
+  restock -- "inventory arrives" --> stock
+  stock -- "What is on the shelf" --> stockout
+  stockout -- "lost demand reads" --> density
+  density -- "restock cadence follows density" --> restock
+  density -.-> contract

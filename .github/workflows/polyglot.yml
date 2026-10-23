@@ -1,0 +1,71 @@
+# polyglot.yml — gates for the non-TypeScript runtimes of sangamora.
+#
+#   rust    crates/flow           deterministic crowd engine, wasm-parity with packages/core
+#   python  services/agents       FastAPI crowd-marshal agent service
+#   go      services/relay        SSE daemon broadcasting live simulation ticks
+#
+# `cargo fmt` is intentionally not run here (kept in pre-commit / editor
+# tooling); this workflow runs the compile + test gates only.
+name: Polyglot
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  rust:
+    name: rust · cargo test (crates/flow)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      # wasm-pack keeps the wasm-parity build path exercisable in CI.
+      - uses: jetli/wasm-pack-action@v0.4.0
+        with:
+          version: latest
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: crates/flow
+
+      - name: cargo test
+        run: cargo test --all-features
+        working-directory: crates/flow
+
+  python:
+    name: python · pytest (services/agents)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: pip install
+        run: pip install -r services/agents/requirements.txt
+
+      - name: pytest
+        run: pytest services/agents
+
+  go:
+    name: go · test (services/relay)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.24"
+          cache-dependency-path: services/relay/go.sum
+
+      - name: go test ./...
+        run: go test ./...
+        working-directory: services/relay

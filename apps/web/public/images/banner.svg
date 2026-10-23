@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="sangamora banner">
+  <title>sangamora banner</title>
+  <rect width="1280" height="640" fill="#160919"/>
+  <circle cx="980" cy="320" r="220" fill="#FF8A00" opacity="0.12"/>
+  <circle cx="980" cy="320" r="120" fill="#0E7C7B" opacity="0.18"/>
+  <text x="80" y="260" font-family="sans-serif" font-size="64" font-weight="700" fill="#FFF6E8">sangamora</text>
+  <text x="80" y="320" font-family="sans-serif" font-size="26" fill="#FFF6E8" opacity="0.7">5.2M pilgrims. 24 sectors. 3 shahi snan. Zero API keys.</text>
+  <circle cx="80" cy="420" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="120" cy="444" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="160" cy="468" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="200" cy="492" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="240" cy="516" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="280" cy="420" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="320" cy="444" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="360" cy="468" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="86" cy="492" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="126" cy="516" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="166" cy="420" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="206" cy="444" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="246" cy="468" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="286" cy="492" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="326" cy="516" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="366" cy="420" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="92" cy="444" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="132" cy="468" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="172" cy="492" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="212" cy="516" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="252" cy="420" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="292" cy="444" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="332" cy="468" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="372" cy="492" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="98" cy="516" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="138" cy="420" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="178" cy="444" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="218" cy="468" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="258" cy="492" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="298" cy="516" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="338" cy="420" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="378" cy="444" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="104" cy="468" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="144" cy="492" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="184" cy="516" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="224" cy="420" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="264" cy="444" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="304" cy="468" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="344" cy="492" r="2" fill="#FF8A00" opacity="0.6"/>
+  <circle cx="384" cy="516" r="2" fill="#FF8A00" opacity="0.6"/>
+</svg>

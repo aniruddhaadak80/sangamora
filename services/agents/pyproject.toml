@@ -1,0 +1,8 @@
+# The service runs from requirements.txt + uvicorn (see README.md). This file
+# only pins pytest discovery so `python -m pytest` works from any directory:
+# `pythonpath` is resolved against the rootdir (this folder), making `app/`
+# importable in tests. Nothing is packaged/installed from here.
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

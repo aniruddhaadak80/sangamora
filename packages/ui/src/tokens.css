@@ -1,0 +1,7 @@
+/*
+  @sangamora/ui ships NO styles. Every primitive is pure Tailwind utility
+  classes that resolve against the host app's Tailwind @theme. This file exists
+  only so the "./tokens.css" export in package.json resolves; see the
+  CONSUMER THEME CONTRACT comment at the top of packages/ui/src/index.ts for
+  the token names the host must define.
+*/

@@ -1,0 +1,22 @@
+gitGraph
+  commit id: "init turborepo"
+  branch develop
+  commit id: "core: CrowdSim + Rng"
+  commit id: "core: risk triage"
+  branch feature/map-canvas
+  commit id: "2D swarm canvas"
+  commit id: "hover + overlays"
+  checkout develop
+  merge feature/map-canvas
+  commit id: "ui: 40+ primitives"
+  branch feature/i18n
+  commit id: "LocaleContext + cookie persist"
+  commit id: "14 locale catalogs"
+  checkout develop
+  merge feature/i18n tag: "v0.1"
+  branch feature/parity-fixture
+  commit id: "crates/flow 8-row fixture"
+  checkout develop
+  merge feature/parity-fixture tag: "v0.2"
+  checkout main
+  merge develop

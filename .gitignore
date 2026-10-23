@@ -1,0 +1,41 @@
+# dependencies
+node_modules/
+
+# next.js / turborepo build output
+.next/
+.next-docs/
+out/
+dist/
+generated/
+.turbo/
+
+# wasm / rust
+target/
+pkg/
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# go
+relay
+
+# tests
+coverage/
+playwright-report/
+test-results/
+
+# env
+.env
+.env.*
+!.env.example
+
+# local data (fs-backed snapshot store)
+.data/
+
+# misc
+*.local
+.vercel/
+.DS_Store

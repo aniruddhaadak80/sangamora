@@ -1,0 +1,18 @@
+flowchart LR
+  dev["push to main<br/>or feature/* branch"]
+  ci["GitHub Actions - .github/workflows/ci.yml"]
+
+  subgraph matrix["parallel CI matrix jobs"]
+    bunji["bun job<br/>bun install + turbo typecheck + lint + test"]
+    pyjob["pytest job<br/>services/agents suite"]
+    cargojob["cargo job<br/>crates/flow tests + parity fixture"]
+    gojob["go test job<br/>services/relay"]
+    locjob["cloc via scripts/loc-count.mjs<br/>line-count report only"]
+  end
+
+  vercel["Vercel production deploy<br/>turbo build --filter sangamora-web<br/>preview per branch, prod on main"]
+  docker["optional Docker path<br/>web + agents + relay compose<br/>fly.io / Render on tag"]
+
+  dev --> ci --> matrix
+  matrix --> vercel
+  matrix -- "tag v0.x" --> docker

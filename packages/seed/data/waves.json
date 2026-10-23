@@ -1,0 +1,13 @@
+{
+  "provenance": "hand-modelled bathing-day schedule for a 2019-style Kumbh cycle; approximated for simulation, not a live pilgrimage calendar",
+  "entries": [
+    { "id": "W01", "kind": "shahi", "label": "Makar Sankranti — first Shahi Snan", "dayIndex": 15, "hourLocal": 4, "weight": 0.98, "pressure": 0.95 },
+    { "id": "W02", "kind": "swim", "label": "Dawn leisure swim — cold-hour dips", "dayIndex": 15, "hourLocal": 6, "weight": 0.42, "pressure": 0.55 },
+    { "id": "W03", "kind": "shahi", "label": "Mauni Amavasya — second Shahi Snan", "dayIndex": 31, "hourLocal": 3, "weight": 1, "pressure": 0.98 },
+    { "id": "W04", "kind": "swim", "label": "Midday swim — post-Shahi spillover", "dayIndex": 31, "hourLocal": 12, "weight": 0.5, "pressure": 0.62 },
+    { "id": "W05", "kind": "shahi", "label": "Basant Panchami — third Shahi Snan", "dayIndex": 37, "hourLocal": 5, "weight": 0.9, "pressure": 0.88 },
+    { "id": "W06", "kind": "swim", "label": "Paush Purnima mass dip", "dayIndex": 6, "hourLocal": 7, "weight": 0.45, "pressure": 0.5 },
+    { "id": "W07", "kind": "swim", "label": "Magh Purnima evening swim", "dayIndex": 41, "hourLocal": 17, "weight": 0.35, "pressure": 0.4 },
+    { "id": "W08", "kind": "swim", "label": "Maha Shivaratri all-night dips", "dayIndex": 45, "hourLocal": 20, "weight": 0.4, "pressure": 0.47 }
+  ]
+}

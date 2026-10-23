@@ -1,0 +1,23 @@
+# dependabot.yml — automated dependency upkeep across the polyglot surfaces.
+#
+#   npm             root Bun workspace (apps/*, packages/*, examples/*)
+#   docker          root Dockerfile
+#   github-actions  every workflow's action pins
+version: 2
+
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: docker
+    directory: "/"
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly

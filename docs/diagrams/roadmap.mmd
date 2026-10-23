@@ -1,0 +1,23 @@
+gantt
+  title sangamora roadmap
+  dateFormat YYYY-MM-DD
+
+  section M0 engine core
+    CrowdSim 24 sectors, 54 edges, determinism :done, m0a, 2026-09-01, 2026-10-15
+    risk triage + MarshalBrain + snapshot v1 :done, m0b, 2026-09-20, 2026-10-20
+    /map canvas + 8 scenarios + app REST :done, m0c, 2026-10-01, 2026-10-23
+
+  section M1 i18n
+    LocaleContext + cookie persistence :m1a, 2026-10-26, 14d
+    14 locale catalogs + RTL audit :m1b, after m1a, 21d
+
+  section M2 examples and plugins
+    example gallery: micro-scenarios per guide :m2a, after m1b, 28d
+    plugin hooks on tick pipeline :m2b, after m2a, 21d
+
+  section M3 wasm hot path
+    crates/flow into the tick loop :m3, after m2b, 30d
+
+  section M4 relay sessions
+    multiplayer share sessions via relay :m4a, after m3, 30d
+    spectator sync + directive conflict rules :m4b, after m4a, 26d

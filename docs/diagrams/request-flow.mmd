@@ -1,0 +1,21 @@
+%%{ init: { "theme": "base", "themeVariables": { "primaryColor": "#FF8A00", "primaryTextColor": "#241203", "primaryBorderColor": "#5E2B00", "actorBkg": "#FF8A00", "actorTextColor": "#241203", "signalColor": "#8A5A2B", "signalTextColor": "#241203" } } }%%
+sequenceDiagram
+  autonumber
+  actor U as Visitor
+  participant Z as zustand sim-store
+  participant C as CrowdSim
+  participant T as triage / riskScore
+  participant V as canvas + recharts overlay
+  participant H as stateHash ledger
+
+  U->>Z: press "run one minute" (or palette action)
+  Z->>C: tick()
+  C->>C: arrivals - 3 channels, wave-gated, budget-checked
+  C->>C: edge flows = min(capacity, demand) x friction, from snapshot
+  C->>C: Sangam terminal drains 2600/min
+  C-->>Z: TickResult { sectorStates, edgeStates, gotSnan, totalMoved }
+  Z->>T: triage(edgeStates, sectorStates, minute)
+  T-->>Z: alerts worst-first + hotspot label
+  Z->>V: render sector discs, edge bands, charts
+  Z->>H: fingerprint state, append { tick, stateHash }
+  H-->>U: /replay timeline row

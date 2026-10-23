@@ -1,0 +1,19 @@
+flowchart TB
+  subgraph runtime["containers (docker compose)"]
+    web["sangamora-web<br/>Next 16 / Turbopack<br/>port 3000"]
+    agents["sangamora-agents<br/>Python FastAPI<br/>port 7332"]
+    relay["sangamora-relay<br/>Go SSE hub<br/>port 7331"]
+  end
+
+  data["volume ./.data<br/>optional snapshot store<br/>snapshot v1 JSON + stateHash"]
+
+  browser["browser / Playwright e2e"]
+  github["GitHub Actions reader<br/>pulls metrics only"]
+
+  browser -- "HTTP 3000" --> web
+  web -- "SDK calls :7332" --> agents
+  web -- "publish + SSE :7331" --> relay
+  agents -.-> data
+  web -.-> data
+  relay -.-> data
+  github ..-> web

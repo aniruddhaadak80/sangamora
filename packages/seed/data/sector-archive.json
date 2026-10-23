@@ -1,0 +1,25 @@
+{
+  "provenance": "modeled on 2019 Prayagraj Mela sector grid; approximated for simulation",
+  "entries": [
+    { "id": "S01", "name": "Sector 1", "areaHectares": 240, "kind": "sangam", "note": "Sangam nose — confluence point, pontoon bridge head, first dip zones" },
+    { "id": "S02", "name": "Sector 2", "areaHectares": 155, "kind": "ghat", "note": "Main Sangam ghat run with akhara descent steps" },
+    { "id": "S03", "name": "Sector 3", "areaHectares": 210, "kind": "camp", "note": "Akhara camp rows — Naga, Niranjani, Juna order tents" },
+    { "id": "S04", "name": "Sector 4", "areaHectares": 195, "kind": "camp", "note": "Kalpvasi tent city — long-stay pilgrim plots" },
+    { "id": "S05", "name": "Sector 5", "areaHectares": 60, "kind": "temple", "note": "Hanuman Mandir campus approaches" },
+    { "id": "S06", "name": "Sector 6", "areaHectares": 175, "kind": "ghat", "note": "Eastern ghat corridor on the Jhusi side" },
+    { "id": "S07", "name": "Sector 7", "areaHectares": 110, "kind": "bazaar", "note": "Marg bazaar rows — arhti stalls and seva counters" },
+    { "id": "S08", "name": "Sector 8", "areaHectares": 45, "kind": "medical", "note": "Central hospital with 108 ambulance relay station" },
+    { "id": "S09", "name": "Sector 9", "areaHectares": 130, "kind": "ghat", "note": "Western ghat cluster along the river loop" },
+    { "id": "S10", "name": "Sector 10", "areaHectares": 185, "kind": "camp", "note": "Dharmshala plots and parikrama shelter line" },
+    { "id": "S11", "name": "Sector 11", "areaHectares": 85, "kind": "temple", "note": "Old shrine cluster doubling as temple fairground" },
+    { "id": "S12", "name": "Sector 12", "areaHectares": 95, "kind": "bazaar", "note": "Bazaar rows — warm-cloth stalls and prasad lanes" },
+    { "id": "S13", "name": "Sector 13", "areaHectares": 95, "kind": "station", "note": "Railhead reception camp with arrival holding pens" },
+    { "id": "S14", "name": "Sector 14", "areaHectares": 160, "kind": "camp", "note": "Volunteer camp with marshal muster plazas" },
+    { "id": "S15", "name": "Sector 15", "areaHectares": 55, "kind": "medical", "note": "Field-hospital overflow annexe" },
+    { "id": "S16", "name": "Sector 16", "areaHectares": 145, "kind": "ghat", "note": "Quiet ghat stretch designated a controlled swim zone" },
+    { "id": "S17", "name": "Sector 17", "areaHectares": 175, "kind": "camp", "note": "Large organisation camp cluster" },
+    { "id": "S18", "name": "Sector 18", "areaHectares": 70, "kind": "temple", "note": "Small shrine court used as a first-aid forward post" },
+    { "id": "S19", "name": "Sector 19", "areaHectares": 100, "kind": "bazaar", "note": "Night bazaar rows along the outer ring road" },
+    { "id": "S20", "name": "Sector 20", "areaHectares": 230, "kind": "camp", "note": "VIP and official camp quarter with helipad access" }
+  ]
+}

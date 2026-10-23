@@ -1,0 +1,21 @@
+stateDiagram-v2
+  direction LR
+  [*] --> OBSERVE
+  OBSERVE --> RANK: tickResult arrives
+  RANK --> ACT: alert >= amber band 0.35
+  RANK --> OBSERVE: worst edge stays green
+  ACT --> MONITOR: directive patch applied<br/>(capacity / demand multipliers)
+  ACT --> OBSERVE: no defensible edge to touch
+  MONITOR --> OBSERVE: utilisation decayed under 1.0
+  MONITOR --> RANK: sustained saturation<br/>escalate or revert
+
+  note right of MONITOR
+    multipliers compose multiplicatively,
+    clamped to 0.05 .. 2.5 per edge,
+    so mass conservation survives any patch
+  end note
+
+  note left of RANK
+    sort key: riskScore desc,
+    tie-break: edgeId asc - deterministic
+  end note

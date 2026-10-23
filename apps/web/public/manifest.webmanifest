@@ -1,0 +1,12 @@
+{
+  "name": "sangamora",
+  "short_name": "sangamora",
+  "description": "A deterministic simulation of the Kumbh Mela.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#160919",
+  "theme_color": "#FF8A00",
+  "icons": [
+    { "src": "/images/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

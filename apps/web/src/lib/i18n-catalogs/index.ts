@@ -1,0 +1,14 @@
+export { en } from "./en";
+export { hi } from "./hi";
+export { es } from "./es";
+export { fr } from "./fr";
+export { de } from "./de";
+export { pt } from "./pt";
+export { ja } from "./ja";
+export { zh } from "./zh";
+export { ar } from "./ar";
+export { ru } from "./ru";
+export { it } from "./it";
+export { ko } from "./ko";
+export { tr } from "./tr";
+export { bn } from "./bn";

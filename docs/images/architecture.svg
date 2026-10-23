@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="sangamora architecture poster">
+  <title>sangamora architecture poster</title>
+  <rect width="1200" height="800" fill="#160919"/>
+  <text x="60" y="60" font-family="sans-serif" font-size="32" font-weight="700" fill="#FFF6E8">sangamora — architecture</text>
+  <rect x="60" y="120" width="300" height="120" rx="8" fill="#2A1533" stroke="#FF8A00"/>
+  <text x="80" y="160" font-family="sans-serif" font-size="16" fill="#FFF6E8">Browser client</text>
+  <text x="80" y="190" font-family="sans-serif" font-size="12" fill="#FFF6E8" opacity="0.6">Next.js 16 · React 19</text>
+  <rect x="440" y="120" width="300" height="120" rx="8" fill="#2A1533" stroke="#0E7C7B"/>
+  <text x="460" y="160" font-family="sans-serif" font-size="16" fill="#FFF6E8">@sangamora/core</text>
+  <text x="460" y="190" font-family="sans-serif" font-size="12" fill="#FFF6E8" opacity="0.6">CrowdSim · BazaarSim · MarshalBrain</text>
+  <rect x="820" y="120" width="300" height="120" rx="8" fill="#2A1533" stroke="undefined"/>
+  <text x="840" y="160" font-family="sans-serif" font-size="16" fill="#FFF6E8">Polyglot services</text>
+  <text x="840" y="190" font-family="sans-serif" font-size="12" fill="#FFF6E8" opacity="0.6">Rust · Python · Go</text>
+  <line x1="360" y1="180" x2="440" y2="180" stroke="#FF8A00" stroke-width="2"/>
+  <line x1="740" y1="180" x2="820" y2="180" stroke="#FF8A00" stroke-width="2"/>
+</svg>

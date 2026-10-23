@@ -1,0 +1,1013 @@
+{
+  "provenance": "scale-engine expansion of data/sector-archive.json; seeded-synthesised (not hand-modelled)",
+  "entries": [
+    {
+      "id": "S001",
+      "name": "Sector 1",
+      "areaHectares": 239,
+      "kind": "sangam",
+      "note": "Sangam nose — confluence point, pontoon bridge head, first dip zones (variant ramp 1)"
+    },
+    {
+      "id": "S002",
+      "name": "Sector 2",
+      "areaHectares": 166,
+      "kind": "ghat",
+      "note": "Main Sangam ghat run with akhara descent steps (variant ramp 2)"
+    },
+    {
+      "id": "S003",
+      "name": "Sector 3",
+      "areaHectares": 209,
+      "kind": "camp",
+      "note": "Akhara camp rows — Naga, Niranjani, Juna order tents (variant ramp 3)"
+    },
+    {
+      "id": "S004",
+      "name": "Sector 4",
+      "areaHectares": 201,
+      "kind": "camp",
+      "note": "Kalpvasi tent city — long-stay pilgrim plots (variant ramp 4)"
+    },
+    {
+      "id": "S005",
+      "name": "Sector 5",
+      "areaHectares": 49,
+      "kind": "temple",
+      "note": "Hanuman Mandir campus approaches (variant ramp 5)"
+    },
+    {
+      "id": "S006",
+      "name": "Sector 6",
+      "areaHectares": 172,
+      "kind": "ghat",
+      "note": "Eastern ghat corridor on the Jhusi side (variant ramp 6)"
+    },
+    {
+      "id": "S007",
+      "name": "Sector 7",
+      "areaHectares": 117,
+      "kind": "bazaar",
+      "note": "Marg bazaar rows — arhti stalls and seva counters (variant ramp 7)"
+    },
+    {
+      "id": "S008",
+      "name": "Sector 8",
+      "areaHectares": 42,
+      "kind": "medical",
+      "note": "Central hospital with 108 ambulance relay station (variant ramp 8)"
+    },
+    {
+      "id": "S009",
+      "name": "Sector 9",
+      "areaHectares": 139,
+      "kind": "ghat",
+      "note": "Western ghat cluster along the river loop (variant ramp 9)"
+    },
+    {
+      "id": "S010",
+      "name": "Sector 10",
+      "areaHectares": 191,
+      "kind": "camp",
+      "note": "Dharmshala plots and parikrama shelter line (variant ramp 10)"
+    },
+    {
+      "id": "S011",
+      "name": "Sector 11",
+      "areaHectares": 84,
+      "kind": "temple",
+      "note": "Old shrine cluster doubling as temple fairground (variant ramp 11)"
+    },
+    {
+      "id": "S012",
+      "name": "Sector 12",
+      "areaHectares": 94,
+      "kind": "bazaar",
+      "note": "Bazaar rows — warm-cloth stalls and prasad lanes (variant ramp 12)"
+    },
+    {
+      "id": "S013",
+      "name": "Sector 13",
+      "areaHectares": 91,
+      "kind": "station",
+      "note": "Railhead reception camp with arrival holding pens (variant ramp 13)"
+    },
+    {
+      "id": "S014",
+      "name": "Sector 14",
+      "areaHectares": 150,
+      "kind": "camp",
+      "note": "Volunteer camp with marshal muster plazas (variant ramp 14)"
+    },
+    {
+      "id": "S015",
+      "name": "Sector 15",
+      "areaHectares": 47,
+      "kind": "medical",
+      "note": "Field-hospital overflow annexe (variant ramp 15)"
+    },
+    {
+      "id": "S016",
+      "name": "Sector 16",
+      "areaHectares": 134,
+      "kind": "ghat",
+      "note": "Quiet ghat stretch designated a controlled swim zone (variant ramp 16)"
+    },
+    {
+      "id": "S017",
+      "name": "Sector 17",
+      "areaHectares": 164,
+      "kind": "camp",
+      "note": "Large organisation camp cluster (variant ramp 17)"
+    },
+    {
+      "id": "S018",
+      "name": "Sector 18",
+      "areaHectares": 81,
+      "kind": "temple",
+      "note": "Small shrine court used as a first-aid forward post (variant ramp 18)"
+    },
+    {
+      "id": "S019",
+      "name": "Sector 19",
+      "areaHectares": 102,
+      "kind": "bazaar",
+      "note": "Night bazaar rows along the outer ring road (variant ramp 19)"
+    },
+    {
+      "id": "S020",
+      "name": "Sector 20",
+      "areaHectares": 239,
+      "kind": "camp",
+      "note": "VIP and official camp quarter with helipad access (variant ramp 20)"
+    },
+    {
+      "id": "S021",
+      "name": "Sector 21",
+      "areaHectares": 231,
+      "kind": "sangam",
+      "note": "Sangam nose — confluence point, pontoon bridge head, first dip zones (variant ramp 21)"
+    },
+    {
+      "id": "S022",
+      "name": "Sector 22",
+      "areaHectares": 145,
+      "kind": "ghat",
+      "note": "Main Sangam ghat run with akhara descent steps (variant ramp 22)"
+    },
+    {
+      "id": "S023",
+      "name": "Sector 23",
+      "areaHectares": 218,
+      "kind": "camp",
+      "note": "Akhara camp rows — Naga, Niranjani, Juna order tents (variant ramp 23)"
+    },
+    {
+      "id": "S024",
+      "name": "Sector 24",
+      "areaHectares": 191,
+      "kind": "camp",
+      "note": "Kalpvasi tent city — long-stay pilgrim plots (variant ramp 24)"
+    },
+    {
+      "id": "S025",
+      "name": "Sector 25",
+      "areaHectares": 59,
+      "kind": "temple",
+      "note": "Hanuman Mandir campus approaches (variant ramp 25)"
+    },
+    {
+      "id": "S026",
+      "name": "Sector 26",
+      "areaHectares": 185,
+      "kind": "ghat",
+      "note": "Eastern ghat corridor on the Jhusi side (variant ramp 26)"
+    },
+    {
+      "id": "S027",
+      "name": "Sector 27",
+      "areaHectares": 101,
+      "kind": "bazaar",
+      "note": "Marg bazaar rows — arhti stalls and seva counters (variant ramp 27)"
+    },
+    {
+      "id": "S028",
+      "name": "Sector 28",
+      "areaHectares": 47,
+      "kind": "medical",
+      "note": "Central hospital with 108 ambulance relay station (variant ramp 28)"
+    },
+    {
+      "id": "S029",
+      "name": "Sector 29",
+      "areaHectares": 142,
+      "kind": "ghat",
+      "note": "Western ghat cluster along the river loop (variant ramp 29)"
+    },
+    {
+      "id": "S030",
+      "name": "Sector 30",
+      "areaHectares": 195,
+      "kind": "camp",
+      "note": "Dharmshala plots and parikrama shelter line (variant ramp 30)"
+    },
+    {
+      "id": "S031",
+      "name": "Sector 31",
+      "areaHectares": 94,
+      "kind": "temple",
+      "note": "Old shrine cluster doubling as temple fairground (variant ramp 31)"
+    },
+    {
+      "id": "S032",
+      "name": "Sector 32",
+      "areaHectares": 87,
+      "kind": "bazaar",
+      "note": "Bazaar rows — warm-cloth stalls and prasad lanes (variant ramp 32)"
+    },
+    {
+      "id": "S033",
+      "name": "Sector 33",
+      "areaHectares": 83,
+      "kind": "station",
+      "note": "Railhead reception camp with arrival holding pens (variant ramp 33)"
+    },
+    {
+      "id": "S034",
+      "name": "Sector 34",
+      "areaHectares": 167,
+      "kind": "camp",
+      "note": "Volunteer camp with marshal muster plazas (variant ramp 34)"
+    },
+    {
+      "id": "S035",
+      "name": "Sector 35",
+      "areaHectares": 55,
+      "kind": "medical",
+      "note": "Field-hospital overflow annexe (variant ramp 35)"
+    },
+    {
+      "id": "S036",
+      "name": "Sector 36",
+      "areaHectares": 136,
+      "kind": "ghat",
+      "note": "Quiet ghat stretch designated a controlled swim zone (variant ramp 36)"
+    },
+    {
+      "id": "S037",
+      "name": "Sector 37",
+      "areaHectares": 186,
+      "kind": "camp",
+      "note": "Large organisation camp cluster (variant ramp 37)"
+    },
+    {
+      "id": "S038",
+      "name": "Sector 38",
+      "areaHectares": 81,
+      "kind": "temple",
+      "note": "Small shrine court used as a first-aid forward post (variant ramp 38)"
+    },
+    {
+      "id": "S039",
+      "name": "Sector 39",
+      "areaHectares": 109,
+      "kind": "bazaar",
+      "note": "Night bazaar rows along the outer ring road (variant ramp 39)"
+    },
+    {
+      "id": "S040",
+      "name": "Sector 40",
+      "areaHectares": 219,
+      "kind": "camp",
+      "note": "VIP and official camp quarter with helipad access (variant ramp 40)"
+    },
+    {
+      "id": "S041",
+      "name": "Sector 41",
+      "areaHectares": 237,
+      "kind": "sangam",
+      "note": "Sangam nose — confluence point, pontoon bridge head, first dip zones (variant ramp 41)"
+    },
+    {
+      "id": "S042",
+      "name": "Sector 42",
+      "areaHectares": 164,
+      "kind": "ghat",
+      "note": "Main Sangam ghat run with akhara descent steps (variant ramp 42)"
+    },
+    {
+      "id": "S043",
+      "name": "Sector 43",
+      "areaHectares": 221,
+      "kind": "camp",
+      "note": "Akhara camp rows — Naga, Niranjani, Juna order tents (variant ramp 43)"
+    },
+    {
+      "id": "S044",
+      "name": "Sector 44",
+      "areaHectares": 193,
+      "kind": "camp",
+      "note": "Kalpvasi tent city — long-stay pilgrim plots (variant ramp 44)"
+    },
+    {
+      "id": "S045",
+      "name": "Sector 45",
+      "areaHectares": 52,
+      "kind": "temple",
+      "note": "Hanuman Mandir campus approaches (variant ramp 45)"
+    },
+    {
+      "id": "S046",
+      "name": "Sector 46",
+      "areaHectares": 184,
+      "kind": "ghat",
+      "note": "Eastern ghat corridor on the Jhusi side (variant ramp 46)"
+    },
+    {
+      "id": "S047",
+      "name": "Sector 47",
+      "areaHectares": 109,
+      "kind": "bazaar",
+      "note": "Marg bazaar rows — arhti stalls and seva counters (variant ramp 47)"
+    },
+    {
+      "id": "S048",
+      "name": "Sector 48",
+      "areaHectares": 46,
+      "kind": "medical",
+      "note": "Central hospital with 108 ambulance relay station (variant ramp 48)"
+    },
+    {
+      "id": "S049",
+      "name": "Sector 49",
+      "areaHectares": 142,
+      "kind": "ghat",
+      "note": "Western ghat cluster along the river loop (variant ramp 49)"
+    },
+    {
+      "id": "S050",
+      "name": "Sector 50",
+      "areaHectares": 194,
+      "kind": "camp",
+      "note": "Dharmshala plots and parikrama shelter line (variant ramp 50)"
+    },
+    {
+      "id": "S051",
+      "name": "Sector 51",
+      "areaHectares": 97,
+      "kind": "temple",
+      "note": "Old shrine cluster doubling as temple fairground (variant ramp 51)"
+    },
+    {
+      "id": "S052",
+      "name": "Sector 52",
+      "areaHectares": 91,
+      "kind": "bazaar",
+      "note": "Bazaar rows — warm-cloth stalls and prasad lanes (variant ramp 52)"
+    },
+    {
+      "id": "S053",
+      "name": "Sector 53",
+      "areaHectares": 86,
+      "kind": "station",
+      "note": "Railhead reception camp with arrival holding pens (variant ramp 53)"
+    },
+    {
+      "id": "S054",
+      "name": "Sector 54",
+      "areaHectares": 157,
+      "kind": "camp",
+      "note": "Volunteer camp with marshal muster plazas (variant ramp 54)"
+    },
+    {
+      "id": "S055",
+      "name": "Sector 55",
+      "areaHectares": 52,
+      "kind": "medical",
+      "note": "Field-hospital overflow annexe (variant ramp 55)"
+    },
+    {
+      "id": "S056",
+      "name": "Sector 56",
+      "areaHectares": 148,
+      "kind": "ghat",
+      "note": "Quiet ghat stretch designated a controlled swim zone (variant ramp 56)"
+    },
+    {
+      "id": "S057",
+      "name": "Sector 57",
+      "areaHectares": 163,
+      "kind": "camp",
+      "note": "Large organisation camp cluster (variant ramp 57)"
+    },
+    {
+      "id": "S058",
+      "name": "Sector 58",
+      "areaHectares": 78,
+      "kind": "temple",
+      "note": "Small shrine court used as a first-aid forward post (variant ramp 58)"
+    },
+    {
+      "id": "S059",
+      "name": "Sector 59",
+      "areaHectares": 92,
+      "kind": "bazaar",
+      "note": "Night bazaar rows along the outer ring road (variant ramp 59)"
+    },
+    {
+      "id": "S060",
+      "name": "Sector 60",
+      "areaHectares": 234,
+      "kind": "camp",
+      "note": "VIP and official camp quarter with helipad access (variant ramp 60)"
+    },
+    {
+      "id": "S061",
+      "name": "Sector 61",
+      "areaHectares": 244,
+      "kind": "sangam",
+      "note": "Sangam nose — confluence point, pontoon bridge head, first dip zones (variant ramp 61)"
+    },
+    {
+      "id": "S062",
+      "name": "Sector 62",
+      "areaHectares": 155,
+      "kind": "ghat",
+      "note": "Main Sangam ghat run with akhara descent steps (variant ramp 62)"
+    },
+    {
+      "id": "S063",
+      "name": "Sector 63",
+      "areaHectares": 201,
+      "kind": "camp",
+      "note": "Akhara camp rows — Naga, Niranjani, Juna order tents (variant ramp 63)"
+    },
+    {
+      "id": "S064",
+      "name": "Sector 64",
+      "areaHectares": 202,
+      "kind": "camp",
+      "note": "Kalpvasi tent city — long-stay pilgrim plots (variant ramp 64)"
+    },
+    {
+      "id": "S065",
+      "name": "Sector 65",
+      "areaHectares": 69,
+      "kind": "temple",
+      "note": "Hanuman Mandir campus approaches (variant ramp 65)"
+    },
+    {
+      "id": "S066",
+      "name": "Sector 66",
+      "areaHectares": 185,
+      "kind": "ghat",
+      "note": "Eastern ghat corridor on the Jhusi side (variant ramp 66)"
+    },
+    {
+      "id": "S067",
+      "name": "Sector 67",
+      "areaHectares": 107,
+      "kind": "bazaar",
+      "note": "Marg bazaar rows — arhti stalls and seva counters (variant ramp 67)"
+    },
+    {
+      "id": "S068",
+      "name": "Sector 68",
+      "areaHectares": 55,
+      "kind": "medical",
+      "note": "Central hospital with 108 ambulance relay station (variant ramp 68)"
+    },
+    {
+      "id": "S069",
+      "name": "Sector 69",
+      "areaHectares": 140,
+      "kind": "ghat",
+      "note": "Western ghat cluster along the river loop (variant ramp 69)"
+    },
+    {
+      "id": "S070",
+      "name": "Sector 70",
+      "areaHectares": 180,
+      "kind": "camp",
+      "note": "Dharmshala plots and parikrama shelter line (variant ramp 70)"
+    },
+    {
+      "id": "S071",
+      "name": "Sector 71",
+      "areaHectares": 86,
+      "kind": "temple",
+      "note": "Old shrine cluster doubling as temple fairground (variant ramp 71)"
+    },
+    {
+      "id": "S072",
+      "name": "Sector 72",
+      "areaHectares": 97,
+      "kind": "bazaar",
+      "note": "Bazaar rows — warm-cloth stalls and prasad lanes (variant ramp 72)"
+    },
+    {
+      "id": "S073",
+      "name": "Sector 73",
+      "areaHectares": 91,
+      "kind": "station",
+      "note": "Railhead reception camp with arrival holding pens (variant ramp 73)"
+    },
+    {
+      "id": "S074",
+      "name": "Sector 74",
+      "areaHectares": 157,
+      "kind": "camp",
+      "note": "Volunteer camp with marshal muster plazas (variant ramp 74)"
+    },
+    {
+      "id": "S075",
+      "name": "Sector 75",
+      "areaHectares": 50,
+      "kind": "medical",
+      "note": "Field-hospital overflow annexe (variant ramp 75)"
+    },
+    {
+      "id": "S076",
+      "name": "Sector 76",
+      "areaHectares": 157,
+      "kind": "ghat",
+      "note": "Quiet ghat stretch designated a controlled swim zone (variant ramp 76)"
+    },
+    {
+      "id": "S077",
+      "name": "Sector 77",
+      "areaHectares": 180,
+      "kind": "camp",
+      "note": "Large organisation camp cluster (variant ramp 77)"
+    },
+    {
+      "id": "S078",
+      "name": "Sector 78",
+      "areaHectares": 69,
+      "kind": "temple",
+      "note": "Small shrine court used as a first-aid forward post (variant ramp 78)"
+    },
+    {
+      "id": "S079",
+      "name": "Sector 79",
+      "areaHectares": 101,
+      "kind": "bazaar",
+      "note": "Night bazaar rows along the outer ring road (variant ramp 79)"
+    },
+    {
+      "id": "S080",
+      "name": "Sector 80",
+      "areaHectares": 226,
+      "kind": "camp",
+      "note": "VIP and official camp quarter with helipad access (variant ramp 80)"
+    },
+    {
+      "id": "S081",
+      "name": "Sector 81",
+      "areaHectares": 242,
+      "kind": "sangam",
+      "note": "Sangam nose — confluence point, pontoon bridge head, first dip zones (variant ramp 81)"
+    },
+    {
+      "id": "S082",
+      "name": "Sector 82",
+      "areaHectares": 143,
+      "kind": "ghat",
+      "note": "Main Sangam ghat run with akhara descent steps (variant ramp 82)"
+    },
+    {
+      "id": "S083",
+      "name": "Sector 83",
+      "areaHectares": 200,
+      "kind": "camp",
+      "note": "Akhara camp rows — Naga, Niranjani, Juna order tents (variant ramp 83)"
+    },
+    {
+      "id": "S084",
+      "name": "Sector 84",
+      "areaHectares": 204,
+      "kind": "camp",
+      "note": "Kalpvasi tent city — long-stay pilgrim plots (variant ramp 84)"
+    },
+    {
+      "id": "S085",
+      "name": "Sector 85",
+      "areaHectares": 52,
+      "kind": "temple",
+      "note": "Hanuman Mandir campus approaches (variant ramp 85)"
+    },
+    {
+      "id": "S086",
+      "name": "Sector 86",
+      "areaHectares": 169,
+      "kind": "ghat",
+      "note": "Eastern ghat corridor on the Jhusi side (variant ramp 86)"
+    },
+    {
+      "id": "S087",
+      "name": "Sector 87",
+      "areaHectares": 105,
+      "kind": "bazaar",
+      "note": "Marg bazaar rows — arhti stalls and seva counters (variant ramp 87)"
+    },
+    {
+      "id": "S088",
+      "name": "Sector 88",
+      "areaHectares": 45,
+      "kind": "medical",
+      "note": "Central hospital with 108 ambulance relay station (variant ramp 88)"
+    },
+    {
+      "id": "S089",
+      "name": "Sector 89",
+      "areaHectares": 125,
+      "kind": "ghat",
+      "note": "Western ghat cluster along the river loop (variant ramp 89)"
+    },
+    {
+      "id": "S090",
+      "name": "Sector 90",
+      "areaHectares": 181,
+      "kind": "camp",
+      "note": "Dharmshala plots and parikrama shelter line (variant ramp 90)"
+    },
+    {
+      "id": "S091",
+      "name": "Sector 91",
+      "areaHectares": 85,
+      "kind": "temple",
+      "note": "Old shrine cluster doubling as temple fairground (variant ramp 91)"
+    },
+    {
+      "id": "S092",
+      "name": "Sector 92",
+      "areaHectares": 86,
+      "kind": "bazaar",
+      "note": "Bazaar rows — warm-cloth stalls and prasad lanes (variant ramp 92)"
+    },
+    {
+      "id": "S093",
+      "name": "Sector 93",
+      "areaHectares": 106,
+      "kind": "station",
+      "note": "Railhead reception camp with arrival holding pens (variant ramp 93)"
+    },
+    {
+      "id": "S094",
+      "name": "Sector 94",
+      "areaHectares": 171,
+      "kind": "camp",
+      "note": "Volunteer camp with marshal muster plazas (variant ramp 94)"
+    },
+    {
+      "id": "S095",
+      "name": "Sector 95",
+      "areaHectares": 66,
+      "kind": "medical",
+      "note": "Field-hospital overflow annexe (variant ramp 95)"
+    },
+    {
+      "id": "S096",
+      "name": "Sector 96",
+      "areaHectares": 142,
+      "kind": "ghat",
+      "note": "Quiet ghat stretch designated a controlled swim zone (variant ramp 96)"
+    },
+    {
+      "id": "S097",
+      "name": "Sector 97",
+      "areaHectares": 180,
+      "kind": "camp",
+      "note": "Large organisation camp cluster (variant ramp 97)"
+    },
+    {
+      "id": "S098",
+      "name": "Sector 98",
+      "areaHectares": 69,
+      "kind": "temple",
+      "note": "Small shrine court used as a first-aid forward post (variant ramp 98)"
+    },
+    {
+      "id": "S099",
+      "name": "Sector 99",
+      "areaHectares": 108,
+      "kind": "bazaar",
+      "note": "Night bazaar rows along the outer ring road (variant ramp 99)"
+    },
+    {
+      "id": "S100",
+      "name": "Sector 100",
+      "areaHectares": 240,
+      "kind": "camp",
+      "note": "VIP and official camp quarter with helipad access (variant ramp 100)"
+    },
+    {
+      "id": "S101",
+      "name": "Sector 101",
+      "areaHectares": 228,
+      "kind": "sangam",
+      "note": "Sangam nose — confluence point, pontoon bridge head, first dip zones (variant ramp 101)"
+    },
+    {
+      "id": "S102",
+      "name": "Sector 102",
+      "areaHectares": 164,
+      "kind": "ghat",
+      "note": "Main Sangam ghat run with akhara descent steps (variant ramp 102)"
+    },
+    {
+      "id": "S103",
+      "name": "Sector 103",
+      "areaHectares": 219,
+      "kind": "camp",
+      "note": "Akhara camp rows — Naga, Niranjani, Juna order tents (variant ramp 103)"
+    },
+    {
+      "id": "S104",
+      "name": "Sector 104",
+      "areaHectares": 200,
+      "kind": "camp",
+      "note": "Kalpvasi tent city — long-stay pilgrim plots (variant ramp 104)"
+    },
+    {
+      "id": "S105",
+      "name": "Sector 105",
+      "areaHectares": 62,
+      "kind": "temple",
+      "note": "Hanuman Mandir campus approaches (variant ramp 105)"
+    },
+    {
+      "id": "S106",
+      "name": "Sector 106",
+      "areaHectares": 164,
+      "kind": "ghat",
+      "note": "Eastern ghat corridor on the Jhusi side (variant ramp 106)"
+    },
+    {
+      "id": "S107",
+      "name": "Sector 107",
+      "areaHectares": 106,
+      "kind": "bazaar",
+      "note": "Marg bazaar rows — arhti stalls and seva counters (variant ramp 107)"
+    },
+    {
+      "id": "S108",
+      "name": "Sector 108",
+      "areaHectares": 53,
+      "kind": "medical",
+      "note": "Central hospital with 108 ambulance relay station (variant ramp 108)"
+    },
+    {
+      "id": "S109",
+      "name": "Sector 109",
+      "areaHectares": 136,
+      "kind": "ghat",
+      "note": "Western ghat cluster along the river loop (variant ramp 109)"
+    },
+    {
+      "id": "S110",
+      "name": "Sector 110",
+      "areaHectares": 177,
+      "kind": "camp",
+      "note": "Dharmshala plots and parikrama shelter line (variant ramp 110)"
+    },
+    {
+      "id": "S111",
+      "name": "Sector 111",
+      "areaHectares": 85,
+      "kind": "temple",
+      "note": "Old shrine cluster doubling as temple fairground (variant ramp 111)"
+    },
+    {
+      "id": "S112",
+      "name": "Sector 112",
+      "areaHectares": 100,
+      "kind": "bazaar",
+      "note": "Bazaar rows — warm-cloth stalls and prasad lanes (variant ramp 112)"
+    },
+    {
+      "id": "S113",
+      "name": "Sector 113",
+      "areaHectares": 91,
+      "kind": "station",
+      "note": "Railhead reception camp with arrival holding pens (variant ramp 113)"
+    },
+    {
+      "id": "S114",
+      "name": "Sector 114",
+      "areaHectares": 160,
+      "kind": "camp",
+      "note": "Volunteer camp with marshal muster plazas (variant ramp 114)"
+    },
+    {
+      "id": "S115",
+      "name": "Sector 115",
+      "areaHectares": 57,
+      "kind": "medical",
+      "note": "Field-hospital overflow annexe (variant ramp 115)"
+    },
+    {
+      "id": "S116",
+      "name": "Sector 116",
+      "areaHectares": 155,
+      "kind": "ghat",
+      "note": "Quiet ghat stretch designated a controlled swim zone (variant ramp 116)"
+    },
+    {
+      "id": "S117",
+      "name": "Sector 117",
+      "areaHectares": 164,
+      "kind": "camp",
+      "note": "Large organisation camp cluster (variant ramp 117)"
+    },
+    {
+      "id": "S118",
+      "name": "Sector 118",
+      "areaHectares": 68,
+      "kind": "temple",
+      "note": "Small shrine court used as a first-aid forward post (variant ramp 118)"
+    },
+    {
+      "id": "S119",
+      "name": "Sector 119",
+      "areaHectares": 91,
+      "kind": "bazaar",
+      "note": "Night bazaar rows along the outer ring road (variant ramp 119)"
+    },
+    {
+      "id": "S120",
+      "name": "Sector 120",
+      "areaHectares": 236,
+      "kind": "camp",
+      "note": "VIP and official camp quarter with helipad access (variant ramp 120)"
+    },
+    {
+      "id": "S121",
+      "name": "Sector 121",
+      "areaHectares": 233,
+      "kind": "sangam",
+      "note": "Sangam nose — confluence point, pontoon bridge head, first dip zones (variant ramp 121)"
+    },
+    {
+      "id": "S122",
+      "name": "Sector 122",
+      "areaHectares": 160,
+      "kind": "ghat",
+      "note": "Main Sangam ghat run with akhara descent steps (variant ramp 122)"
+    },
+    {
+      "id": "S123",
+      "name": "Sector 123",
+      "areaHectares": 219,
+      "kind": "camp",
+      "note": "Akhara camp rows — Naga, Niranjani, Juna order tents (variant ramp 123)"
+    },
+    {
+      "id": "S124",
+      "name": "Sector 124",
+      "areaHectares": 204,
+      "kind": "camp",
+      "note": "Kalpvasi tent city — long-stay pilgrim plots (variant ramp 124)"
+    },
+    {
+      "id": "S125",
+      "name": "Sector 125",
+      "areaHectares": 63,
+      "kind": "temple",
+      "note": "Hanuman Mandir campus approaches (variant ramp 125)"
+    },
+    {
+      "id": "S126",
+      "name": "Sector 126",
+      "areaHectares": 171,
+      "kind": "ghat",
+      "note": "Eastern ghat corridor on the Jhusi side (variant ramp 126)"
+    },
+    {
+      "id": "S127",
+      "name": "Sector 127",
+      "areaHectares": 113,
+      "kind": "bazaar",
+      "note": "Marg bazaar rows — arhti stalls and seva counters (variant ramp 127)"
+    },
+    {
+      "id": "S128",
+      "name": "Sector 128",
+      "areaHectares": 51,
+      "kind": "medical",
+      "note": "Central hospital with 108 ambulance relay station (variant ramp 128)"
+    },
+    {
+      "id": "S129",
+      "name": "Sector 129",
+      "areaHectares": 128,
+      "kind": "ghat",
+      "note": "Western ghat cluster along the river loop (variant ramp 129)"
+    },
+    {
+      "id": "S130",
+      "name": "Sector 130",
+      "areaHectares": 179,
+      "kind": "camp",
+      "note": "Dharmshala plots and parikrama shelter line (variant ramp 130)"
+    },
+    {
+      "id": "S131",
+      "name": "Sector 131",
+      "areaHectares": 88,
+      "kind": "temple",
+      "note": "Old shrine cluster doubling as temple fairground (variant ramp 131)"
+    },
+    {
+      "id": "S132",
+      "name": "Sector 132",
+      "areaHectares": 106,
+      "kind": "bazaar",
+      "note": "Bazaar rows — warm-cloth stalls and prasad lanes (variant ramp 132)"
+    },
+    {
+      "id": "S133",
+      "name": "Sector 133",
+      "areaHectares": 100,
+      "kind": "station",
+      "note": "Railhead reception camp with arrival holding pens (variant ramp 133)"
+    },
+    {
+      "id": "S134",
+      "name": "Sector 134",
+      "areaHectares": 165,
+      "kind": "camp",
+      "note": "Volunteer camp with marshal muster plazas (variant ramp 134)"
+    },
+    {
+      "id": "S135",
+      "name": "Sector 135",
+      "areaHectares": 50,
+      "kind": "medical",
+      "note": "Field-hospital overflow annexe (variant ramp 135)"
+    },
+    {
+      "id": "S136",
+      "name": "Sector 136",
+      "areaHectares": 148,
+      "kind": "ghat",
+      "note": "Quiet ghat stretch designated a controlled swim zone (variant ramp 136)"
+    },
+    {
+      "id": "S137",
+      "name": "Sector 137",
+      "areaHectares": 180,
+      "kind": "camp",
+      "note": "Large organisation camp cluster (variant ramp 137)"
+    },
+    {
+      "id": "S138",
+      "name": "Sector 138",
+      "areaHectares": 59,
+      "kind": "temple",
+      "note": "Small shrine court used as a first-aid forward post (variant ramp 138)"
+    },
+    {
+      "id": "S139",
+      "name": "Sector 139",
+      "areaHectares": 109,
+      "kind": "bazaar",
+      "note": "Night bazaar rows along the outer ring road (variant ramp 139)"
+    },
+    {
+      "id": "S140",
+      "name": "Sector 140",
+      "areaHectares": 225,
+      "kind": "camp",
+      "note": "VIP and official camp quarter with helipad access (variant ramp 140)"
+    },
+    {
+      "id": "S141",
+      "name": "Sector 141",
+      "areaHectares": 251,
+      "kind": "sangam",
+      "note": "Sangam nose — confluence point, pontoon bridge head, first dip zones (variant ramp 141)"
+    },
+    {
+      "id": "S142",
+      "name": "Sector 142",
+      "areaHectares": 166,
+      "kind": "ghat",
+      "note": "Main Sangam ghat run with akhara descent steps (variant ramp 142)"
+    },
+    {
+      "id": "S143",
+      "name": "Sector 143",
+      "areaHectares": 200,
+      "kind": "camp",
+      "note": "Akhara camp rows — Naga, Niranjani, Juna order tents (variant ramp 143)"
+    },
+    {
+      "id": "S144",
+      "name": "Sector 144",
+      "areaHectares": 198,
+      "kind": "camp",
+      "note": "Kalpvasi tent city — long-stay pilgrim plots (variant ramp 144)"
+    }
+  ]
+}

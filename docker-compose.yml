@@ -1,0 +1,64 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# sangamora — local polyglot stack. Zero API keys, one deterministic seed.
+#
+#   docker compose up --build
+#
+#   web      Next 16 sandbox                → http://localhost:3000
+#   relay    Go SSE daemon (live ticks)     → http://localhost:7331
+#   agents   Python FastAPI crowd marshals  → http://localhost:7332
+#
+# Every variable these services read is optional — the simulation is fully
+# offline and deterministic with bare defaults. `.env.example` is committed and
+# key-free, so compose can mount it directly; copy it to `.env` if you want
+# private local overrides:
+#
+#   cp .env.example .env   (and change `env_file:` entries to point there)
+#
+# No volumes or databases are needed: stateless by construction.
+# ─────────────────────────────────────────────────────────────────────────────
+
+services:
+  web:
+    build: .
+    image: sangamora-web
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3000}
+      MELA_SEED: ${MELA_SEED:-7331}
+    env_file:
+      - .env.example
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1:3000/api/healthz"]
+      interval: 30s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
+
+  agents:
+    build: ./services/agents
+    image: sangamora-agents
+    ports:
+      - "7332:7332"
+    environment:
+      AGENTS_PORT: 7332
+    env_file:
+      - .env.example
+    # The FastAPI app serves health checks at the service's conventional
+    # /healthz — keep in sync with services/agents.
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:7332/healthz')"]
+      interval: 15s
+      timeout: 5s
+      start_period: 15s
+      retries: 5
+
+  relay:
+    build: ./services/relay
+    image: sangamora-relay
+    ports:
+      - "7331:7331"
+    environment:
+      RELAY_PORT: 7331
+    env_file:
+      - .env.example

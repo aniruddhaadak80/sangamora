@@ -1,0 +1,29 @@
+# vercel.json — drives the Vercel prebuilt pipeline (see .github/workflows/deploy-vercel.yml).
+#
+# Region choice is deliberate: bom1 (Mumbai) is the closest Vercel region to
+# Prayagraj/Haridwar/Nashik/Ujjain — the Kumbh Mela rotation — for both latency
+# and symbolism. The app is fully client-side + SSR-light, so one region is
+# enough; no CDN fan-out needed for a sandbox.
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "bun run build",
+  "installCommand": "bun install",
+  "regions": ["bom1"],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), payment=()" }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}

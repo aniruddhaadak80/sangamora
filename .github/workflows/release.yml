@@ -1,0 +1,46 @@
+# release.yml — cut a GitHub Release from a pushed `v*` tag.
+#
+# Notes are generated strictly from Conventional Commits (feat:, fix:, docs:,
+# chore:, test:, …) since the previous tag — deliberately no extra tooling
+# (semantic-release runs its own lane; see .releaserc.yml).
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: github release (${{ github.ref_name }})
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # full history so the previous tag + commit range is resolvable
+          fetch-depth: 0
+
+      - name: collect conventional commits since previous tag
+        run: |
+          set -euo pipefail
+          prev_tag=$(git describe --tags --abbrev=0 "${GITHUB_REF_NAME}^1" 2>/dev/null || true)
+          if [ -z "$prev_tag" ]; then
+            # first tag ever: every commit is "since the start"
+            prev_tag=$(git rev-list --max-parents=0 HEAD)
+          fi
+          {
+            echo "## ${GITHUB_REF_NAME}"
+            echo
+            echo "Automated notes from [Conventional Commits](https://www.conventionalcommits.org/) since \`${prev_tag}\`."
+            echo
+            git log --no-merges --pretty=format:"- %s (%h)" "${prev_tag}..${GITHUB_REF_NAME}"
+          } > RELEASE_NOTES.md
+          cat RELEASE_NOTES.md
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          draft: false
+          prerelease: ${{ contains(github.ref_name, '-') }}
+          body_path: RELEASE_NOTES.md

@@ -1,0 +1,55 @@
+erDiagram
+  PILGRIM_WAVE {
+    string label
+    float startHr
+    float weight "0.18 / 0.42 / 0.22 Shahi snan"
+    string targetGhatId
+  }
+  RAIL_TRAIN {
+    string id
+    int arrivalMin
+    string platform
+    int cohortSize
+  }
+  SECTOR {
+    string id PK
+    string kind "station | ghat | temple | camp | bazaar | medical | sangam"
+    float areaM2
+    float population
+    boolean jammed
+  }
+  EDGE {
+    string id PK
+    string from
+    string to
+    float widthM "x 46 people/min = capacity"
+    float flow
+    float utilization
+  }
+  DIRECTIVE {
+    int tick
+    string targetId "edge or sector id"
+    string kind "capacity | demand"
+    float multiplier "clamped 0.05 - 2.5"
+  }
+  VENDOR {
+    string id PK
+    string itemId
+    int stock
+    float price
+    int restockLeadMin
+  }
+  SNAPSHOT {
+    int v "always 1"
+    string stateHash "FNV-1a 8-hex"
+    int minute
+    int seed
+  }
+
+  PILGRIM_WAVE ||--|| SECTOR : targets_ghat
+  RAIL_TRAIN }o--|| SECTOR : unloads_cohort
+  SECTOR ||--o{ EDGE : endpoint
+  DIRECTIVE }o--o| EDGE : scales_capacity
+  DIRECTIVE }o--o| SECTOR : scales_demand
+  SNAPSHOT }o--|| SECTOR : archives_positions
+  VENDOR }o--|| SECTOR : trades_inside

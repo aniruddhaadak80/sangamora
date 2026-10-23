@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Questions & ideas → Discussions
+    url: https://github.com/aniruddhaadak80/sangamora/discussions
+    about: Usage questions, simulation tuning, design debates and community decisions. Open a discussion before filing an issue you're unsure about.
+  - name: Security vulnerabilities → private report (SECURITY.md)
+    url: https://github.com/aniruddhaadak80/sangamora/security/advisories/new
+    about: Report vulnerabilities privately via GitHub security advisories. Never open a public issue for a security report.

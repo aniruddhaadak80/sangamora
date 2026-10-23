@@ -1,0 +1,1301 @@
+{
+  "provenance": "scale-engine expansion of data/waves.json; seeded-synthesised (not hand-modelled)",
+  "entries": [
+    {
+      "id": "W001",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 1)",
+      "dayIndex": 15,
+      "hourLocal": 5,
+      "weight": 0.958,
+      "pressure": 0.923
+    },
+    {
+      "id": "W002",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 2)",
+      "dayIndex": 16,
+      "hourLocal": 6,
+      "weight": 0.458,
+      "pressure": 0.551
+    },
+    {
+      "id": "W003",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 3)",
+      "dayIndex": 31,
+      "hourLocal": 2,
+      "weight": 0.998,
+      "pressure": 1
+    },
+    {
+      "id": "W004",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 4)",
+      "dayIndex": 31,
+      "hourLocal": 12,
+      "weight": 0.486,
+      "pressure": 0.592
+    },
+    {
+      "id": "W005",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 5)",
+      "dayIndex": 37,
+      "hourLocal": 5,
+      "weight": 0.881,
+      "pressure": 0.917
+    },
+    {
+      "id": "W006",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 6)",
+      "dayIndex": 6,
+      "hourLocal": 6,
+      "weight": 0.441,
+      "pressure": 0.501
+    },
+    {
+      "id": "W007",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 7)",
+      "dayIndex": 42,
+      "hourLocal": 17,
+      "weight": 0.333,
+      "pressure": 0.435
+    },
+    {
+      "id": "W008",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 8)",
+      "dayIndex": 45,
+      "hourLocal": 21,
+      "weight": 0.41,
+      "pressure": 0.49
+    },
+    {
+      "id": "W009",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 9)",
+      "dayIndex": 14,
+      "hourLocal": 3,
+      "weight": 1,
+      "pressure": 0.988
+    },
+    {
+      "id": "W010",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 10)",
+      "dayIndex": 15,
+      "hourLocal": 5,
+      "weight": 0.417,
+      "pressure": 0.582
+    },
+    {
+      "id": "W011",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 11)",
+      "dayIndex": 30,
+      "hourLocal": 4,
+      "weight": 0.962,
+      "pressure": 0.957
+    },
+    {
+      "id": "W012",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 12)",
+      "dayIndex": 30,
+      "hourLocal": 12,
+      "weight": 0.504,
+      "pressure": 0.634
+    },
+    {
+      "id": "W013",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 13)",
+      "dayIndex": 37,
+      "hourLocal": 6,
+      "weight": 0.901,
+      "pressure": 0.841
+    },
+    {
+      "id": "W014",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 14)",
+      "dayIndex": 6,
+      "hourLocal": 6,
+      "weight": 0.442,
+      "pressure": 0.51
+    },
+    {
+      "id": "W015",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 15)",
+      "dayIndex": 42,
+      "hourLocal": 17,
+      "weight": 0.343,
+      "pressure": 0.397
+    },
+    {
+      "id": "W016",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 16)",
+      "dayIndex": 45,
+      "hourLocal": 20,
+      "weight": 0.37,
+      "pressure": 0.48
+    },
+    {
+      "id": "W017",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 17)",
+      "dayIndex": 16,
+      "hourLocal": 4,
+      "weight": 0.988,
+      "pressure": 0.919
+    },
+    {
+      "id": "W018",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 18)",
+      "dayIndex": 15,
+      "hourLocal": 6,
+      "weight": 0.405,
+      "pressure": 0.536
+    },
+    {
+      "id": "W019",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 19)",
+      "dayIndex": 32,
+      "hourLocal": 2,
+      "weight": 1,
+      "pressure": 0.968
+    },
+    {
+      "id": "W020",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 20)",
+      "dayIndex": 30,
+      "hourLocal": 13,
+      "weight": 0.522,
+      "pressure": 0.626
+    },
+    {
+      "id": "W021",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 21)",
+      "dayIndex": 38,
+      "hourLocal": 5,
+      "weight": 0.889,
+      "pressure": 0.908
+    },
+    {
+      "id": "W022",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 22)",
+      "dayIndex": 5,
+      "hourLocal": 6,
+      "weight": 0.466,
+      "pressure": 0.46
+    },
+    {
+      "id": "W023",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 23)",
+      "dayIndex": 41,
+      "hourLocal": 17,
+      "weight": 0.312,
+      "pressure": 0.377
+    },
+    {
+      "id": "W024",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 24)",
+      "dayIndex": 45,
+      "hourLocal": 21,
+      "weight": 0.428,
+      "pressure": 0.483
+    },
+    {
+      "id": "W025",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 25)",
+      "dayIndex": 15,
+      "hourLocal": 3,
+      "weight": 0.963,
+      "pressure": 0.923
+    },
+    {
+      "id": "W026",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 26)",
+      "dayIndex": 15,
+      "hourLocal": 6,
+      "weight": 0.45,
+      "pressure": 0.513
+    },
+    {
+      "id": "W027",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 27)",
+      "dayIndex": 31,
+      "hourLocal": 3,
+      "weight": 0.984,
+      "pressure": 0.996
+    },
+    {
+      "id": "W028",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 28)",
+      "dayIndex": 32,
+      "hourLocal": 11,
+      "weight": 0.513,
+      "pressure": 0.633
+    },
+    {
+      "id": "W029",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 29)",
+      "dayIndex": 37,
+      "hourLocal": 6,
+      "weight": 0.874,
+      "pressure": 0.866
+    },
+    {
+      "id": "W030",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 30)",
+      "dayIndex": 5,
+      "hourLocal": 8,
+      "weight": 0.482,
+      "pressure": 0.466
+    },
+    {
+      "id": "W031",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 31)",
+      "dayIndex": 41,
+      "hourLocal": 17,
+      "weight": 0.315,
+      "pressure": 0.425
+    },
+    {
+      "id": "W032",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 32)",
+      "dayIndex": 45,
+      "hourLocal": 21,
+      "weight": 0.4,
+      "pressure": 0.507
+    },
+    {
+      "id": "W033",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 33)",
+      "dayIndex": 16,
+      "hourLocal": 3,
+      "weight": 0.959,
+      "pressure": 0.931
+    },
+    {
+      "id": "W034",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 34)",
+      "dayIndex": 16,
+      "hourLocal": 6,
+      "weight": 0.402,
+      "pressure": 0.569
+    },
+    {
+      "id": "W035",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 35)",
+      "dayIndex": 30,
+      "hourLocal": 2,
+      "weight": 1,
+      "pressure": 0.962
+    },
+    {
+      "id": "W036",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 36)",
+      "dayIndex": 31,
+      "hourLocal": 11,
+      "weight": 0.466,
+      "pressure": 0.59
+    },
+    {
+      "id": "W037",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 37)",
+      "dayIndex": 36,
+      "hourLocal": 4,
+      "weight": 0.936,
+      "pressure": 0.883
+    },
+    {
+      "id": "W038",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 38)",
+      "dayIndex": 7,
+      "hourLocal": 6,
+      "weight": 0.442,
+      "pressure": 0.536
+    },
+    {
+      "id": "W039",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 39)",
+      "dayIndex": 42,
+      "hourLocal": 18,
+      "weight": 0.379,
+      "pressure": 0.381
+    },
+    {
+      "id": "W040",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 40)",
+      "dayIndex": 44,
+      "hourLocal": 20,
+      "weight": 0.404,
+      "pressure": 0.474
+    },
+    {
+      "id": "W041",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 41)",
+      "dayIndex": 15,
+      "hourLocal": 5,
+      "weight": 0.96,
+      "pressure": 0.96
+    },
+    {
+      "id": "W042",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 42)",
+      "dayIndex": 14,
+      "hourLocal": 6,
+      "weight": 0.43,
+      "pressure": 0.529
+    },
+    {
+      "id": "W043",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 43)",
+      "dayIndex": 31,
+      "hourLocal": 2,
+      "weight": 0.98,
+      "pressure": 0.984
+    },
+    {
+      "id": "W044",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 44)",
+      "dayIndex": 31,
+      "hourLocal": 11,
+      "weight": 0.484,
+      "pressure": 0.621
+    },
+    {
+      "id": "W045",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 45)",
+      "dayIndex": 36,
+      "hourLocal": 4,
+      "weight": 0.921,
+      "pressure": 0.912
+    },
+    {
+      "id": "W046",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 46)",
+      "dayIndex": 5,
+      "hourLocal": 8,
+      "weight": 0.474,
+      "pressure": 0.492
+    },
+    {
+      "id": "W047",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 47)",
+      "dayIndex": 42,
+      "hourLocal": 17,
+      "weight": 0.38,
+      "pressure": 0.433
+    },
+    {
+      "id": "W048",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 48)",
+      "dayIndex": 45,
+      "hourLocal": 19,
+      "weight": 0.401,
+      "pressure": 0.484
+    },
+    {
+      "id": "W049",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 49)",
+      "dayIndex": 15,
+      "hourLocal": 4,
+      "weight": 0.994,
+      "pressure": 0.954
+    },
+    {
+      "id": "W050",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 50)",
+      "dayIndex": 16,
+      "hourLocal": 6,
+      "weight": 0.386,
+      "pressure": 0.566
+    },
+    {
+      "id": "W051",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 51)",
+      "dayIndex": 32,
+      "hourLocal": 4,
+      "weight": 1,
+      "pressure": 0.96
+    },
+    {
+      "id": "W052",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 52)",
+      "dayIndex": 30,
+      "hourLocal": 11,
+      "weight": 0.47,
+      "pressure": 0.645
+    },
+    {
+      "id": "W053",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 53)",
+      "dayIndex": 36,
+      "hourLocal": 6,
+      "weight": 0.928,
+      "pressure": 0.886
+    },
+    {
+      "id": "W054",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 54)",
+      "dayIndex": 6,
+      "hourLocal": 7,
+      "weight": 0.47,
+      "pressure": 0.482
+    },
+    {
+      "id": "W055",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 55)",
+      "dayIndex": 40,
+      "hourLocal": 18,
+      "weight": 0.324,
+      "pressure": 0.404
+    },
+    {
+      "id": "W056",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 56)",
+      "dayIndex": 45,
+      "hourLocal": 20,
+      "weight": 0.416,
+      "pressure": 0.501
+    },
+    {
+      "id": "W057",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 57)",
+      "dayIndex": 15,
+      "hourLocal": 3,
+      "weight": 0.954,
+      "pressure": 0.922
+    },
+    {
+      "id": "W058",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 58)",
+      "dayIndex": 15,
+      "hourLocal": 5,
+      "weight": 0.455,
+      "pressure": 0.561
+    },
+    {
+      "id": "W059",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 59)",
+      "dayIndex": 32,
+      "hourLocal": 2,
+      "weight": 1,
+      "pressure": 1
+    },
+    {
+      "id": "W060",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 60)",
+      "dayIndex": 31,
+      "hourLocal": 12,
+      "weight": 0.486,
+      "pressure": 0.626
+    },
+    {
+      "id": "W061",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 61)",
+      "dayIndex": 37,
+      "hourLocal": 5,
+      "weight": 0.904,
+      "pressure": 0.854
+    },
+    {
+      "id": "W062",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 62)",
+      "dayIndex": 6,
+      "hourLocal": 7,
+      "weight": 0.459,
+      "pressure": 0.501
+    },
+    {
+      "id": "W063",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 63)",
+      "dayIndex": 41,
+      "hourLocal": 16,
+      "weight": 0.325,
+      "pressure": 0.368
+    },
+    {
+      "id": "W064",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 64)",
+      "dayIndex": 45,
+      "hourLocal": 21,
+      "weight": 0.365,
+      "pressure": 0.49
+    },
+    {
+      "id": "W065",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 65)",
+      "dayIndex": 14,
+      "hourLocal": 4,
+      "weight": 0.997,
+      "pressure": 0.935
+    },
+    {
+      "id": "W066",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 66)",
+      "dayIndex": 16,
+      "hourLocal": 6,
+      "weight": 0.39,
+      "pressure": 0.538
+    },
+    {
+      "id": "W067",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 67)",
+      "dayIndex": 32,
+      "hourLocal": 3,
+      "weight": 0.979,
+      "pressure": 0.983
+    },
+    {
+      "id": "W068",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 68)",
+      "dayIndex": 32,
+      "hourLocal": 12,
+      "weight": 0.466,
+      "pressure": 0.647
+    },
+    {
+      "id": "W069",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 69)",
+      "dayIndex": 37,
+      "hourLocal": 4,
+      "weight": 0.872,
+      "pressure": 0.866
+    },
+    {
+      "id": "W070",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 70)",
+      "dayIndex": 5,
+      "hourLocal": 8,
+      "weight": 0.428,
+      "pressure": 0.514
+    },
+    {
+      "id": "W071",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 71)",
+      "dayIndex": 40,
+      "hourLocal": 16,
+      "weight": 0.327,
+      "pressure": 0.412
+    },
+    {
+      "id": "W072",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 72)",
+      "dayIndex": 45,
+      "hourLocal": 19,
+      "weight": 0.424,
+      "pressure": 0.493
+    },
+    {
+      "id": "W073",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 73)",
+      "dayIndex": 14,
+      "hourLocal": 3,
+      "weight": 0.964,
+      "pressure": 0.951
+    },
+    {
+      "id": "W074",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 74)",
+      "dayIndex": 14,
+      "hourLocal": 5,
+      "weight": 0.43,
+      "pressure": 0.589
+    },
+    {
+      "id": "W075",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 75)",
+      "dayIndex": 32,
+      "hourLocal": 4,
+      "weight": 1,
+      "pressure": 0.996
+    },
+    {
+      "id": "W076",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 76)",
+      "dayIndex": 31,
+      "hourLocal": 13,
+      "weight": 0.464,
+      "pressure": 0.644
+    },
+    {
+      "id": "W077",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 77)",
+      "dayIndex": 36,
+      "hourLocal": 6,
+      "weight": 0.914,
+      "pressure": 0.883
+    },
+    {
+      "id": "W078",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 78)",
+      "dayIndex": 5,
+      "hourLocal": 7,
+      "weight": 0.453,
+      "pressure": 0.475
+    },
+    {
+      "id": "W079",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 79)",
+      "dayIndex": 41,
+      "hourLocal": 18,
+      "weight": 0.385,
+      "pressure": 0.429
+    },
+    {
+      "id": "W080",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 80)",
+      "dayIndex": 45,
+      "hourLocal": 19,
+      "weight": 0.375,
+      "pressure": 0.495
+    },
+    {
+      "id": "W081",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 81)",
+      "dayIndex": 16,
+      "hourLocal": 3,
+      "weight": 0.975,
+      "pressure": 0.989
+    },
+    {
+      "id": "W082",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 82)",
+      "dayIndex": 16,
+      "hourLocal": 6,
+      "weight": 0.418,
+      "pressure": 0.59
+    },
+    {
+      "id": "W083",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 83)",
+      "dayIndex": 30,
+      "hourLocal": 4,
+      "weight": 0.98,
+      "pressure": 0.947
+    },
+    {
+      "id": "W084",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 84)",
+      "dayIndex": 30,
+      "hourLocal": 13,
+      "weight": 0.493,
+      "pressure": 0.621
+    },
+    {
+      "id": "W085",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 85)",
+      "dayIndex": 38,
+      "hourLocal": 6,
+      "weight": 0.877,
+      "pressure": 0.854
+    },
+    {
+      "id": "W086",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 86)",
+      "dayIndex": 5,
+      "hourLocal": 6,
+      "weight": 0.42,
+      "pressure": 0.484
+    },
+    {
+      "id": "W087",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 87)",
+      "dayIndex": 41,
+      "hourLocal": 17,
+      "weight": 0.313,
+      "pressure": 0.423
+    },
+    {
+      "id": "W088",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 88)",
+      "dayIndex": 45,
+      "hourLocal": 19,
+      "weight": 0.379,
+      "pressure": 0.5
+    },
+    {
+      "id": "W089",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 89)",
+      "dayIndex": 15,
+      "hourLocal": 5,
+      "weight": 1,
+      "pressure": 0.963
+    },
+    {
+      "id": "W090",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 90)",
+      "dayIndex": 15,
+      "hourLocal": 6,
+      "weight": 0.434,
+      "pressure": 0.56
+    },
+    {
+      "id": "W091",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 91)",
+      "dayIndex": 32,
+      "hourLocal": 2,
+      "weight": 1,
+      "pressure": 0.965
+    },
+    {
+      "id": "W092",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 92)",
+      "dayIndex": 31,
+      "hourLocal": 12,
+      "weight": 0.537,
+      "pressure": 0.656
+    },
+    {
+      "id": "W093",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 93)",
+      "dayIndex": 36,
+      "hourLocal": 6,
+      "weight": 0.886,
+      "pressure": 0.883
+    },
+    {
+      "id": "W094",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 94)",
+      "dayIndex": 6,
+      "hourLocal": 7,
+      "weight": 0.427,
+      "pressure": 0.465
+    },
+    {
+      "id": "W095",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 95)",
+      "dayIndex": 40,
+      "hourLocal": 18,
+      "weight": 0.352,
+      "pressure": 0.421
+    },
+    {
+      "id": "W096",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 96)",
+      "dayIndex": 44,
+      "hourLocal": 20,
+      "weight": 0.416,
+      "pressure": 0.487
+    },
+    {
+      "id": "W097",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 97)",
+      "dayIndex": 15,
+      "hourLocal": 5,
+      "weight": 0.949,
+      "pressure": 0.954
+    },
+    {
+      "id": "W098",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 98)",
+      "dayIndex": 16,
+      "hourLocal": 7,
+      "weight": 0.382,
+      "pressure": 0.587
+    },
+    {
+      "id": "W099",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 99)",
+      "dayIndex": 31,
+      "hourLocal": 2,
+      "weight": 0.975,
+      "pressure": 0.948
+    },
+    {
+      "id": "W100",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 100)",
+      "dayIndex": 32,
+      "hourLocal": 11,
+      "weight": 0.512,
+      "pressure": 0.618
+    },
+    {
+      "id": "W101",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 101)",
+      "dayIndex": 37,
+      "hourLocal": 4,
+      "weight": 0.883,
+      "pressure": 0.888
+    },
+    {
+      "id": "W102",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 102)",
+      "dayIndex": 6,
+      "hourLocal": 7,
+      "weight": 0.45,
+      "pressure": 0.489
+    },
+    {
+      "id": "W103",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 103)",
+      "dayIndex": 41,
+      "hourLocal": 18,
+      "weight": 0.382,
+      "pressure": 0.38
+    },
+    {
+      "id": "W104",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 104)",
+      "dayIndex": 45,
+      "hourLocal": 21,
+      "weight": 0.405,
+      "pressure": 0.478
+    },
+    {
+      "id": "W105",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 105)",
+      "dayIndex": 14,
+      "hourLocal": 3,
+      "weight": 0.971,
+      "pressure": 0.946
+    },
+    {
+      "id": "W106",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 106)",
+      "dayIndex": 15,
+      "hourLocal": 6,
+      "weight": 0.382,
+      "pressure": 0.532
+    },
+    {
+      "id": "W107",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 107)",
+      "dayIndex": 30,
+      "hourLocal": 2,
+      "weight": 1,
+      "pressure": 0.968
+    },
+    {
+      "id": "W108",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 108)",
+      "dayIndex": 32,
+      "hourLocal": 11,
+      "weight": 0.51,
+      "pressure": 0.601
+    },
+    {
+      "id": "W109",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 109)",
+      "dayIndex": 37,
+      "hourLocal": 4,
+      "weight": 0.89,
+      "pressure": 0.895
+    },
+    {
+      "id": "W110",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 110)",
+      "dayIndex": 7,
+      "hourLocal": 8,
+      "weight": 0.44,
+      "pressure": 0.528
+    },
+    {
+      "id": "W111",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 111)",
+      "dayIndex": 41,
+      "hourLocal": 16,
+      "weight": 0.337,
+      "pressure": 0.425
+    },
+    {
+      "id": "W112",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 112)",
+      "dayIndex": 44,
+      "hourLocal": 21,
+      "weight": 0.429,
+      "pressure": 0.439
+    },
+    {
+      "id": "W113",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 113)",
+      "dayIndex": 14,
+      "hourLocal": 4,
+      "weight": 0.964,
+      "pressure": 0.916
+    },
+    {
+      "id": "W114",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 114)",
+      "dayIndex": 15,
+      "hourLocal": 7,
+      "weight": 0.385,
+      "pressure": 0.543
+    },
+    {
+      "id": "W115",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 115)",
+      "dayIndex": 30,
+      "hourLocal": 4,
+      "weight": 0.99,
+      "pressure": 0.942
+    },
+    {
+      "id": "W116",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 116)",
+      "dayIndex": 31,
+      "hourLocal": 12,
+      "weight": 0.5,
+      "pressure": 0.625
+    },
+    {
+      "id": "W117",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 117)",
+      "dayIndex": 38,
+      "hourLocal": 6,
+      "weight": 0.866,
+      "pressure": 0.864
+    },
+    {
+      "id": "W118",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 118)",
+      "dayIndex": 7,
+      "hourLocal": 6,
+      "weight": 0.448,
+      "pressure": 0.504
+    },
+    {
+      "id": "W119",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 119)",
+      "dayIndex": 40,
+      "hourLocal": 17,
+      "weight": 0.355,
+      "pressure": 0.416
+    },
+    {
+      "id": "W120",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 120)",
+      "dayIndex": 45,
+      "hourLocal": 20,
+      "weight": 0.412,
+      "pressure": 0.437
+    },
+    {
+      "id": "W121",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 121)",
+      "dayIndex": 15,
+      "hourLocal": 5,
+      "weight": 0.943,
+      "pressure": 0.97
+    },
+    {
+      "id": "W122",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 122)",
+      "dayIndex": 14,
+      "hourLocal": 5,
+      "weight": 0.416,
+      "pressure": 0.533
+    },
+    {
+      "id": "W123",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 123)",
+      "dayIndex": 32,
+      "hourLocal": 3,
+      "weight": 0.965,
+      "pressure": 0.945
+    },
+    {
+      "id": "W124",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 124)",
+      "dayIndex": 31,
+      "hourLocal": 11,
+      "weight": 0.476,
+      "pressure": 0.619
+    },
+    {
+      "id": "W125",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 125)",
+      "dayIndex": 38,
+      "hourLocal": 4,
+      "weight": 0.885,
+      "pressure": 0.858
+    },
+    {
+      "id": "W126",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 126)",
+      "dayIndex": 5,
+      "hourLocal": 8,
+      "weight": 0.453,
+      "pressure": 0.531
+    },
+    {
+      "id": "W127",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 127)",
+      "dayIndex": 42,
+      "hourLocal": 17,
+      "weight": 0.372,
+      "pressure": 0.374
+    },
+    {
+      "id": "W128",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 128)",
+      "dayIndex": 45,
+      "hourLocal": 20,
+      "weight": 0.432,
+      "pressure": 0.433
+    },
+    {
+      "id": "W129",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 129)",
+      "dayIndex": 15,
+      "hourLocal": 5,
+      "weight": 0.985,
+      "pressure": 0.957
+    },
+    {
+      "id": "W130",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 130)",
+      "dayIndex": 15,
+      "hourLocal": 5,
+      "weight": 0.387,
+      "pressure": 0.57
+    },
+    {
+      "id": "W131",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 131)",
+      "dayIndex": 31,
+      "hourLocal": 2,
+      "weight": 0.984,
+      "pressure": 1
+    },
+    {
+      "id": "W132",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 132)",
+      "dayIndex": 30,
+      "hourLocal": 12,
+      "weight": 0.49,
+      "pressure": 0.593
+    },
+    {
+      "id": "W133",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 133)",
+      "dayIndex": 36,
+      "hourLocal": 6,
+      "weight": 0.921,
+      "pressure": 0.852
+    },
+    {
+      "id": "W134",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 134)",
+      "dayIndex": 5,
+      "hourLocal": 6,
+      "weight": 0.477,
+      "pressure": 0.511
+    },
+    {
+      "id": "W135",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 135)",
+      "dayIndex": 42,
+      "hourLocal": 16,
+      "weight": 0.379,
+      "pressure": 0.388
+    },
+    {
+      "id": "W136",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 136)",
+      "dayIndex": 45,
+      "hourLocal": 20,
+      "weight": 0.377,
+      "pressure": 0.499
+    },
+    {
+      "id": "W137",
+      "kind": "shahi",
+      "label": "Makar Sankranti — first Shahi Snan (ramp 137)",
+      "dayIndex": 15,
+      "hourLocal": 3,
+      "weight": 0.985,
+      "pressure": 0.952
+    },
+    {
+      "id": "W138",
+      "kind": "swim",
+      "label": "Dawn leisure swim — cold-hour dips (ramp 138)",
+      "dayIndex": 14,
+      "hourLocal": 6,
+      "weight": 0.408,
+      "pressure": 0.54
+    },
+    {
+      "id": "W139",
+      "kind": "shahi",
+      "label": "Mauni Amavasya — second Shahi Snan (ramp 139)",
+      "dayIndex": 31,
+      "hourLocal": 2,
+      "weight": 0.988,
+      "pressure": 1
+    },
+    {
+      "id": "W140",
+      "kind": "swim",
+      "label": "Midday swim — post-Shahi spillover (ramp 140)",
+      "dayIndex": 30,
+      "hourLocal": 11,
+      "weight": 0.525,
+      "pressure": 0.645
+    },
+    {
+      "id": "W141",
+      "kind": "shahi",
+      "label": "Basant Panchami — third Shahi Snan (ramp 141)",
+      "dayIndex": 37,
+      "hourLocal": 6,
+      "weight": 0.861,
+      "pressure": 0.916
+    },
+    {
+      "id": "W142",
+      "kind": "swim",
+      "label": "Paush Purnima mass dip (ramp 142)",
+      "dayIndex": 6,
+      "hourLocal": 7,
+      "weight": 0.486,
+      "pressure": 0.483
+    },
+    {
+      "id": "W143",
+      "kind": "swim",
+      "label": "Magh Purnima evening swim (ramp 143)",
+      "dayIndex": 40,
+      "hourLocal": 17,
+      "weight": 0.343,
+      "pressure": 0.38
+    },
+    {
+      "id": "W144",
+      "kind": "swim",
+      "label": "Maha Shivaratri all-night dips (ramp 144)",
+      "dayIndex": 45,
+      "hourLocal": 21,
+      "weight": 0.416,
+      "pressure": 0.461
+    }
+  ]
+}

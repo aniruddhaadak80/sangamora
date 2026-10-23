@@ -1,0 +1,46 @@
+%%{ init: { "theme": "base", "themeVariables": { "primaryColor": "#FF8A00", "primaryTextColor": "#241203", "primaryBorderColor": "#5E2B00", "lineColor": "#8A5A2B", "secondaryColor": "#FFE9D2", "tertiaryColor": "#FFF6EC" } } }%%
+flowchart LR
+  subgraph browser["Browser client - apps/web (Next 16 App Router)"]
+    pages["App Router pages<br/>/  /map  /risk  /bazaar  /rails  /sectors<br/>/replay  /calendar  /analytics  /scenarios  /explainer"]
+    canvas["/map swarm canvas<br/>2D painter pass"]
+    palette["cmdk palette<br/>Ctrl+K action launcher"]
+    store["zustand sim-store<br/>tick counters + overlay state"]
+    api_routes["REST adapters - thin<br/>api/healthz  api/directive<br/>api/scenarios  api/calendar  api/bazaar"]
+  end
+
+  subgraph engine["packages/core - deterministic crowd engine"]
+    CrowdSim["CrowdSim<br/>24 sectors / 54 edges<br/>mass-conserving tick"]
+    marshal["MarshalBrain<br/>FSM directive brain"]
+    bazaar["BazaarSim<br/>emergent economy"]
+    rails["RailScheduler<br/>timetable + cohorts"]
+    player["TimelinePlayer<br/>snapshot / restore"]
+    triage["triage + riskScore<br/>amber / orange / red bands"]
+  end
+
+  seed["packages/seed<br/>waves.json  sector-archive.json<br/>trains.json  bazaar-items.json<br/>zod-validated fixtures"]
+  wasm["crates/flow (Rust wasm)<br/>BPR parity engine<br/>optional runtime hot path"]
+
+  agents_svc["services/agents<br/>Python FastAPI :7332<br/>crowd-marshal + risk scoring"]
+  relay_svc["services/relay<br/>Go SSE :7331<br/>/publish  /stream"]
+
+  sdk["packages/sdk<br/>typed client for :7332"]
+  ui_pkg["packages/ui<br/>40+ Tailwind primitives"]
+
+  pages --> store
+  palette --> store
+  store --> CrowdSim
+  CrowdSim --> triage
+  triage --> store --> canvas
+  CrowdSim --> marshal
+  CrowdSim --> player
+  rails --> CrowdSim
+  bazaar --> CrowdSim
+  seed --> CrowdSim
+  wasm -.-> CrowdSim
+
+  store --> api_routes
+  api_routes --> relay_svc
+  sdk --> agents_svc
+  agents_svc --> marshal
+  ui_pkg --> pages
+  relay_svc -- "SSE stream" --> store
