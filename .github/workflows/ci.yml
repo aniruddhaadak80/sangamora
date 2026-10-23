@@ -37,7 +37,7 @@ jobs:
       # bun.lock drives resolution; cache the shared bun + node caches so
       # turbo/pnpm-style cache misses don't re-download the world.
       - name: cache bun install cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.bun/install/cache
           key: bun-${{ runner.os }}-${{ hashFiles('bun.lock') }}
@@ -57,7 +57,7 @@ jobs:
 
       # Playwright chromium — headless e2e against the deterministic sandbox.
       - name: cache playwright browsers
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ hashFiles('bun.lock') }}
