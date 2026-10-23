@@ -28,7 +28,7 @@ RUN bun install --frozen-lockfile
 RUN bun run build
 
 # ── stage 2: runtime (Node, non-root) ────────────────────────────────────────
-FROM node:22-slim AS runner
+FROM node:25-slim AS runner
 
 # wget powers the container HEALTHCHECK below (slim images ship without it).
 RUN apt-get update \
