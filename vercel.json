@@ -1,14 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "services": {
-    "web": {
-      "root": "apps/web",
-      "routePrefix": "/",
-      "framework": "nextjs",
-      "installCommand": "cd ../.. && bun install",
-      "buildCommand": "cd ../.. && bun run build"
-    }
-  },
+  "framework": "nextjs",
+  "buildCommand": "bun run build",
+  "installCommand": "bun install",
+  "outputDirectory": "apps/web/.next",
   "regions": ["bom1"],
   "headers": [
     {
