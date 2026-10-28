@@ -23,6 +23,8 @@
     "lucide-react": "^1.61.0"
   },
   "devDependencies": {
+    "@sangamora/config": "workspace:*",
+    "@types/node": "^20.19.43",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "react": "^19.3.1",
