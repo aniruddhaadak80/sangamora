@@ -62,18 +62,25 @@ describe("mass conservation", () => {
 
   it("never emits NaN or negative population", () => {
     const sim = new CrowdSim({ seed: 777 });
-    for (let i = 0; i < 900; i++) {
+    const violations: string[] = [];
+    for (let i = 0; i < 900 && violations.length === 0; i++) {
       const r = sim.tick();
       for (const s of r.sectorStates) {
-        expect(Number.isFinite(s.population)).toBe(true);
-        expect(s.population).toBeGreaterThanOrEqual(0);
-        expect(Number.isFinite(s.density)).toBe(true);
+        if (!Number.isFinite(s.population) || s.population < 0 || !Number.isFinite(s.density)) {
+          violations.push(
+            `tick ${i} sector ${s.sectorId}: population=${s.population} density=${s.density}`,
+          );
+        }
       }
       for (const e of r.edgeStates) {
-        expect(Number.isFinite(e.flow)).toBe(true);
-        expect(Number.isFinite(e.capacity)).toBe(true);
+        if (!Number.isFinite(e.flow) || !Number.isFinite(e.capacity)) {
+          violations.push(`tick ${i} edge ${e.edgeId}: flow=${e.flow} capacity=${e.capacity}`);
+        }
       }
     }
+    // One assertion over the collected violations: per-cell expect() calls make
+    // this loop ~100x slower and pushed the suite past the CI timeout.
+    expect(violations).toEqual([]);
   });
 
   it("caps arrivals by the configured pilgrimage budget", () => {
@@ -102,15 +109,23 @@ describe("state shapes", () => {
 
   it("keeps utilization within [0, 1] and flow <= capacity over long runs", () => {
     const sim = new CrowdSim({ seed: 123 });
-    for (let i = 0; i < 1000; i++) {
+    const violations: string[] = [];
+    for (let i = 0; i < 1000 && violations.length === 0; i++) {
       const r = sim.tick();
       for (const e of r.edgeStates) {
-        expect(e.utilization).toBeGreaterThanOrEqual(0);
-        expect(e.utilization).toBeLessThanOrEqual(1.0000001);
-        expect(e.flow).toBeLessThanOrEqual(e.capacity + 1e-9);
-        expect(e.travelTimeMin).toBeGreaterThan(0);
+        if (
+          e.utilization < 0 ||
+          e.utilization > 1.0000001 ||
+          e.flow > e.capacity + 1e-9 ||
+          e.travelTimeMin <= 0
+        ) {
+          violations.push(
+            `tick ${i} edge ${e.edgeId}: utilization=${e.utilization} flow=${e.flow} capacity=${e.capacity} travelTimeMin=${e.travelTimeMin}`,
+          );
+        }
       }
     }
+    expect(violations).toEqual([]);
   });
 
   it("rotates the snan target ghat across waves", () => {
