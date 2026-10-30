@@ -17,7 +17,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 # ── stage 1: deps + build (Bun, root workspace) ──────────────────────────────
-FROM oven/bun:1.3.14 AS builder
+FROM oven/bun:1.4.4 AS builder
 
 WORKDIR /app
 
