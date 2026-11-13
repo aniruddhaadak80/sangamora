@@ -19,15 +19,15 @@
     "@sangamora/ui": "workspace:*",
     "cmdk": "^1.1.1",
     "date-fns": "^4.4.0",
-    "framer-motion": "^14.9.1",
-    "lucide-react": "^1.68.0",
-    "next": "16.4.5",
+    "framer-motion": "^14.12.0",
+    "lucide-react": "^1.71.0",
+    "next": "16.4.6",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "recharts": "^3.10.1",
     "three": "^0.187.0",
     "zod": "^4.6.7",
-    "zustand": "^5.0.16"
+    "zustand": "^5.1.0"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
