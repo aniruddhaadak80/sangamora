@@ -29,11 +29,11 @@
     "loc:min": "bun scripts/loc-count.mjs --min-lines 1000000"
   },
   "devDependencies": {
-    "@playwright/test": "^1.65.0",
+    "@playwright/test": "^1.65.1",
     "eslint": "^9.39.5",
     "eslint-config-next": "16.4.6",
     "next": "16.4.5",
-    "turbo": "^2.11.10",
+    "turbo": "^2.11.11",
     "typescript": "^5.9.3",
     "vitest": "^5.1.0"
   }
